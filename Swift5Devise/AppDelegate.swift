@@ -15,12 +15,50 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        
+        
+        let storyboard:UIStoryboard = self.grabStoryBoard()
+        if let window = window{
+            
+            window.rootViewController = storyboard.instantiateInitialViewController() as? UIViewController
+            
+        }
+        
+        self.window?.makeKeyAndVisible()
         // Override point for customization after application launch.
         return true
     }
+    
+    func grabStoryBoard() -> UIStoryboard{
+        
+        var storyboard = UIStoryboard()
+        var height = UIScreen.main.bounds.size.height
+        
+        //iPhone7 or 8
+        if height == 667{
+            
+            storyboard = UIStoryboard(name: "Main", bundle: nil)
+            
+        }else if height == 736{
+                storyboard = UIStoryboard(name: "iPhone8Plus", bundle: nil)
+        }else if height == 488{
+                storyboard = UIStoryboard(name: "iPhone4s", bundle: nil)
+        }else{
+                storyboard = UIStoryboard(name: "iPhoneSE", bundle: nil)
+
+        }
+        
+        return storyboard
+        
+        
+    }
+    
+    
+    
 
     func applicationWillResignActive(_ application: UIApplication) {
-        // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
+        // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions() (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
     }
 

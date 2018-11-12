@@ -12,6 +12,9 @@
 		FF15831B21991461009FBF6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF15831921991461009FBF6B /* Main.storyboard */; };
 		FF15831D21991464009FBF6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF15831C21991464009FBF6B /* Assets.xcassets */; };
 		FF15832021991464009FBF6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF15831E21991464009FBF6B /* LaunchScreen.storyboard */; };
+		FF15832A219916B3009FBF6B /* iPhone8Plus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF158329219916B3009FBF6B /* iPhone8Plus.storyboard */; };
+		FF15832C21991813009FBF6B /* iPhone4s.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF15832B21991813009FBF6B /* iPhone4s.storyboard */; };
+		FF15832E2199187D009FBF6B /* iPhoneSE.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF15832D2199187D009FBF6B /* iPhoneSE.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		FF15831C21991464009FBF6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF15831F21991464009FBF6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF15832121991464009FBF6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF158329219916B3009FBF6B /* iPhone8Plus.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPhone8Plus.storyboard; sourceTree = "<group>"; };
+		FF15832B21991813009FBF6B /* iPhone4s.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPhone4s.storyboard; sourceTree = "<group>"; };
+		FF15832D2199187D009FBF6B /* iPhoneSE.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPhoneSE.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				FF15831521991461009FBF6B /* AppDelegate.swift */,
 				FF15831721991461009FBF6B /* ViewController.swift */,
 				FF15831921991461009FBF6B /* Main.storyboard */,
+				FF158329219916B3009FBF6B /* iPhone8Plus.storyboard */,
+				FF15832B21991813009FBF6B /* iPhone4s.storyboard */,
+				FF15832D2199187D009FBF6B /* iPhoneSE.storyboard */,
 				FF15831C21991464009FBF6B /* Assets.xcassets */,
 				FF15831E21991464009FBF6B /* LaunchScreen.storyboard */,
 				FF15832121991464009FBF6B /* Info.plist */,
@@ -123,7 +132,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF15832021991464009FBF6B /* LaunchScreen.storyboard in Resources */,
+				FF15832E2199187D009FBF6B /* iPhoneSE.storyboard in Resources */,
+				FF15832A219916B3009FBF6B /* iPhone8Plus.storyboard in Resources */,
 				FF15831D21991464009FBF6B /* Assets.xcassets in Resources */,
+				FF15832C21991813009FBF6B /* iPhone4s.storyboard in Resources */,
 				FF15831B21991461009FBF6B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
